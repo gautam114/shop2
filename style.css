@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a, p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+#top_nav span {
+  font-size: 2rem;
+}
+
+#inp_group {
+  width: 25%;
+}
+
+nav li {
+  padding-right: 1rem;
+}
+
+input[type=text] {
+  padding: 1rem 0;
+}
+
+button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#top_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#head_sec {
+  background: linear-gradient(to right, rgba(30, 30, 30, 0.5) 40%, rgba(30, 30, 30, 0)), url("./images/shop.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 45vh;
+}
+
+header a {
+  text-decoration: none;
+  color: #a34242;
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+
+  #inp_group {
+    width: 80%;
+  }
+}
+.card:hover {
+  transform: scale(0.9);
+  transition: all 0.3s;
+}
+
+footer span {
+  font-size: 2rem;
+}
+
+.trends .swiper {
+  width: 100%;
+  padding: 2rem;
+}
+
+.trends .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 30rem;
+  height: 30rem;
+}
+
+.trends .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
